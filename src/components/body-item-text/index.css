@@ -1,0 +1,23 @@
+.body-item-text {
+  text-align: left;
+  border-left: 2px solid #14274a;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.body-item-text h2 {
+  font-family: Adobe Garamond Pro;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+  color: #14274a;
+  letter-spacing: 0.02em;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  width: 88%;
+  margin-bottom: 10px;
+}

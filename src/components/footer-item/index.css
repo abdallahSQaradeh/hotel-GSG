@@ -1,0 +1,17 @@
+.footer-item {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item icon {
+  width: 18px;
+}
+.footer-item div {
+  text-align: left;
+}
+.ml {
+  margin-left: 20px;
+}

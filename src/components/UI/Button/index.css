@@ -1,0 +1,38 @@
+.button {
+  background-color: #e0b973;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  transform: scaleZ(3);
+}
+.button-text {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+}
+.normal {
+  width: 240px;
+  height: 65px;
+}
+.small {
+  width: 175px;
+  height: 40px;
+}
+.fit {
+  margin-right: 5px;
+  padding: 5px 7px;
+
+  width: fit-content;
+}
+.fit div {
+  display: none;
+}

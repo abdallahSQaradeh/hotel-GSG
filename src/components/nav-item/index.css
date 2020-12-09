@@ -1,0 +1,10 @@
+.nav-item {
+  color: white;
+}
+.nav-item:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  transition: all ease-in-out 1s;
+  color: #eee;
+  transform: scaleZ(3);
+}
