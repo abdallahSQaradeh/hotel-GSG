@@ -1,0 +1,31 @@
+.body-facility {
+  margin: 70px auto;
+}
+.body-header {
+  text-align: center;
+}
+.facility-title {
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #14274a;
+}
+.facility-title-description {
+  margin: 30px auto;
+  width: 69%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #14274a;
+}
