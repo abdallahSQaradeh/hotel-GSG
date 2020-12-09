@@ -35,6 +35,7 @@ export default function BodyFacility(props) {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { images, loading, ready, error } = state;
   useEffect(() => {
+    dispatch({ type: "pending" });
     axios
       .get(
         "https://api.pexels.com/v1/search?query=hotel-furniture&size=small&per_page=7&page=1&orientation=square",
