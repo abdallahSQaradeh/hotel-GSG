@@ -1,0 +1,27 @@
+.email-field {
+  margin-top: 24px;
+  position: relative;
+}
+.email-address {
+  background-color: #14274a;
+  border: 1px solid #e0b973;
+  color: white;
+  font-size: 14px;
+  padding: 5px 15px;
+  width: 280px;
+}
+.email-address-ok {
+  cursor: pointer;
+  color: #14274a;
+  position: absolute;
+  font-size: 10px;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0b973;
+}
