@@ -1,0 +1,28 @@
+.banner-line {
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: white;
+  font-family: "Montserrat";
+}
+.line-1 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  line-height: 55px;
+}
+.line-2 {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0.07em;
+}
+.line-3 {
+  font-family: adobe-garamond-pro, serif;
+  font-size: 50px;
+  letter-spacing: 0.3em;
+  line-height: 54px;
+}
+.w {
+  width: 600px;
+}

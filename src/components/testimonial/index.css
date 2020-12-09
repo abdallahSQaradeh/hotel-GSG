@@ -1,0 +1,19 @@
+.testimonial {
+  margin-top: 20px;
+}
+.testimonial-text {
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+  color: #14274a;
+}
+.author {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 55px;
+  margin: 5px 0px;
+  color: #14274a;
+}

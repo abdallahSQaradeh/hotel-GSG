@@ -1,0 +1,17 @@
+.scroll-button {
+  margin-top: 5%;
+  position: absolute;
+  bottom: 0;
+
+  color: white;
+  font-weight: 700;
+  font-size: bold;
+}
+.scroll-button:hover {
+  cursor: pointer;
+  color: #eee;
+}
+.scroll-icon {
+  margin-top: 5px;
+  width: 35px;
+}

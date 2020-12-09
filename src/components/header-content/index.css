@@ -1,0 +1,15 @@
+.header-content {
+  width: 78%;
+  margin: auto;
+  z-index: 100;
+}
+.header-footer {
+  position: relative;
+  margin-top: 60px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  justify-content: space-between;
+}

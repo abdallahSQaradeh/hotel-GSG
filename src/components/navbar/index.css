@@ -1,0 +1,9 @@
+.navbar {
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  height: 149px;
+}
+.logo-container {
+  height: 149px;
+}
