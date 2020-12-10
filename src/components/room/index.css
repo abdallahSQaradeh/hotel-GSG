@@ -1,0 +1,61 @@
+.room {
+  width: 80%; /*1264*/
+  height: 1041px;
+  margin: auto;
+}
+.room:last-of-type {
+  margin-bottom: 100px;
+}
+.room-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 150px;
+}
+.room-img {
+  width: 100%; /*1264*/
+  height: 841px;
+  margin: auto;
+}
+.room-caption {
+  bottom: 0px;
+  width: 100%;
+  background-color: #14274a;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 40px;
+
+  color: white;
+}
+.room-footer {
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 180px;
+  border: 1px solid #14274a;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 50px;
+}
+.room-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+.view-details {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #14274a;
+}

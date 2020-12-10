@@ -26,5 +26,9 @@
   "facilitiesPage": {
     "title": "FACILITIES",
     "description": "We want your stay at our lush hotel to be truly unforgettable.  That is why we give special attention to all of your needs so that we can ensure an experience quite uniquw. Luxury hotels offers the perfect setting with stunning views for leisure and our modern luxury resort facilities will help you enjoy the best of all. "
+  },
+  "roomPage": {
+    "title": "ROOMS AND RATES",
+    "description": "Each of our bright, light-flooded rooms come with everything you could possibly need for a comfortable stay. And yes, comfort isn’t our only objective, we also value good design, sleek contemporary furnishing complemented by the rich tones of nature’s palette as visible from our rooms’ sea-view windows and terraces. "
   }
 }
