@@ -1,0 +1,15 @@
+.circle-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e0b973;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-button-text {
+  font-size: 40px;
+  font-weight: 100;
+
+  color: white;
+}
