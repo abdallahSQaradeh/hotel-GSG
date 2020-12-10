@@ -18,6 +18,8 @@
   font-size: 9px;
   line-height: 11px;
   letter-spacing: 0.6em;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .hotel-address,
 .hotel-phone,

@@ -14,3 +14,14 @@
 
   justify-content: space-between;
 }
+
+.contact-us {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  padding: 20px 0px;
+  text-align: center;
+  line-height: 98px;
+}

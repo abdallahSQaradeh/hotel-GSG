@@ -9,6 +9,7 @@ export default function EmailField() {
         className="email-address"
         placeholder="Email"
         value="Email Address"
+        onChange={() => {}}
       />
       <div className="email-address-ok">OK</div>
     </div>

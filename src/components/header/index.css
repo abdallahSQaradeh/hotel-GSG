@@ -17,6 +17,10 @@
   height: 100%;
   z-index: -5;
 }
+.solid {
+  background-color: #14274a;
+  height: 372px;
+}
 /*
 .header::after {
   content: "";
