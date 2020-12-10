@@ -8,9 +8,9 @@
   color: #eee;
   transform: scaleZ(3);
 }
-.active{
+.active {
   border-bottom: 1px solid white;
 }
-a{
+a {
   text-decoration: none;
 }
