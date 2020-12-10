@@ -1,7 +1,6 @@
 import React, { useEffect, useReducer } from "react";
 import axios from "axios";
 import "./index.css";
-import PropTypes from "prop-types";
 import BodyItem from "../body-item/index";
 import Testimonials from "../testiminials/index";
 import Loader from "../UI/loader/loader";
@@ -33,7 +32,6 @@ const reducer = (state, action) => {
 };
 export default function Body(props) {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const { myRef } = props;
   const { images, loading, ready, error } = state;
   const { texts } = data.homePage;
   useEffect(() => {
@@ -58,7 +56,7 @@ export default function Body(props) {
       });
   }, []);
   return (
-    <div className="body" ref={myRef}>
+    <div className="body">
       <h3 className="body-title">{data.homePage.bodyTitle}</h3>
       {loading ? <Loader /> : null}
       {ready
@@ -66,7 +64,7 @@ export default function Body(props) {
             return (
               <BodyItem
                 key={item.id}
-                imgTitle={item.photographer}
+                imgTitle={`${item.photographer}${idx + Math.random()}` + `body`}
                 src={item.src.original}
                 text={texts[idx].text}
                 title={texts[idx].title}
@@ -79,6 +77,3 @@ export default function Body(props) {
     </div>
   );
 }
-Body.propTypes = {
-  myRef: PropTypes.elementType.isRequired,
-};

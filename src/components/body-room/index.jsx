@@ -1,7 +1,6 @@
 import React, { useEffect, useReducer } from "react";
 import "./index.css";
 import axios from "axios";
-import PropTypes from "prop-types";
 import Loader from "../UI/loader/loader";
 import data from "../../data/data.json";
 import Room from "../room/index";
@@ -71,9 +70,8 @@ export default function BodyRoom(props) {
       });
   }, []);
 
-  const { myRef } = props;
   return (
-    <div className="body-room" ref={myRef}>
+    <div className="body-room">
       <div className="body-header">
         <h2 className="room-title">{data.roomPage.title}</h2>
         <p className="room-title-description">{data.roomPage.description}</p>
@@ -88,7 +86,7 @@ export default function BodyRoom(props) {
                 images={img}
                 caption={images[idx].photographer}
                 price="$155"
-                key={`idx${idx + 3}`}
+                key={`idx${idx + Math.random()}`}
               />
             );
           })}
@@ -96,6 +94,3 @@ export default function BodyRoom(props) {
     </div>
   );
 }
-BodyRoom.propTypes = {
-  myRef: PropTypes.elementType.isRequired,
-};

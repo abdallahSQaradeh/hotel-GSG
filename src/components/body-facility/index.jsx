@@ -1,5 +1,4 @@
 import React, { useEffect, useReducer } from "react";
-import PropTypes from "prop-types";
 import axios from "axios";
 import data from "../../data/data.json";
 import "./index.css";
@@ -55,9 +54,8 @@ export default function BodyFacility(props) {
       });
   }, []);
 
-  const { myRef } = props;
   return (
-    <div className="body-facility" ref={myRef}>
+    <div className="body-facility">
       <div className="body-header">
         <h2 className="facility-title">{data.facilitiesPage.title}</h2>
         <p className="facility-title-description">
@@ -68,10 +66,10 @@ export default function BodyFacility(props) {
         {loading && <Loader />}
         {error && <div>Something went wrong</div>}
         {ready &&
-          images.map((img) => {
+          images.map((img, idx) => {
             return (
               <Facility
-                key={img.photographer}
+                key={`${img.photographer}${`${idx + Math.random()}facility`}`}
                 alt={img.photographer}
                 src={img.src.original}
                 caption={img.photographer}
@@ -82,6 +80,3 @@ export default function BodyFacility(props) {
     </div>
   );
 }
-BodyFacility.propTypes = {
-  myRef: PropTypes.elementType.isRequired,
-};
