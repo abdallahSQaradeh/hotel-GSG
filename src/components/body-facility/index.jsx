@@ -48,7 +48,6 @@ export default function BodyFacility(props) {
       )
       .then((res) => res.data.photos)
       .then((res) => {
-        console.log(res);
         dispatch({ type: "success", data: res });
       })
       .catch((err) => {

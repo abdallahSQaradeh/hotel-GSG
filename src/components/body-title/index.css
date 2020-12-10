@@ -1,0 +1,32 @@
+.body-header {
+  margin-top: 60px;
+  margin: auto;
+}
+.body-title {
+  font-family: Adobe Garamond Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 60px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #14274a;
+}
+.body-title-description {
+  margin: 10px auto 0px auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 30px;
+
+  color: #14274a;
+}
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}

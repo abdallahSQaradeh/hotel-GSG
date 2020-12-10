@@ -1,0 +1,18 @@
+.contact-info {
+  color: #14274a;
+  font-family: "Montserrat";
+  font-size: 33px;
+  line-height: 46px;
+}
+.location {
+}
+.map {
+  margin-top: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.map img {
+  margin-left: 20px;
+}

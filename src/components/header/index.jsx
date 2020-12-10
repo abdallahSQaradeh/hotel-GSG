@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 import HeaderContent from "../header-content/index";
 
 export default function Header(props) {
-  const { backGround, scrollTo } = props;
-  return (
+  const { backGround, scrollTo, solid } = props;
+  return !solid ? (
     <div
       className="header"
       style={{
@@ -15,12 +15,20 @@ export default function Header(props) {
       <HeaderContent scrollTo={scrollTo} />
       <div className="darkColor" />
     </div>
+  ) : (
+    <div className="header solid">
+      <HeaderContent solid />
+      <div className="darkColor" />
+    </div>
   );
 }
 Header.propTypes = {
   backGround: PropTypes.elementType,
-  scrollTo: PropTypes.elementType.isRequired,
+  scrollTo: PropTypes.elementType,
+  solid: PropTypes.bool,
 };
 Header.defaultProps = {
   backGround: "",
+  solid: false,
+  scrollTo: null,
 };

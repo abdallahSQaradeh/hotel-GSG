@@ -1,0 +1,11 @@
+.body-contact {
+  width: 79%;
+  margin: 204px auto;
+  margin-bottom: 412px;
+}
+.contact-container {
+  margin-top: 56px;
+
+  display: flex;
+  justify-content: space-between;
+}

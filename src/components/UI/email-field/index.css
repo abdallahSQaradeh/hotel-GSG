@@ -6,9 +6,9 @@
   background-color: #14274a;
   border: 1px solid #e0b973;
   color: white;
-  font-size: 14px;
-  padding: 5px 15px;
-  width: 280px;
+  font-size: 16px;
+  padding: 10px 15px;
+  width: 300px;
 }
 .email-address-ok {
   cursor: pointer;
@@ -18,8 +18,8 @@
   font-weight: bold;
   top: 0;
   right: 0;
-  width: 32px;
-  height: 28px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
