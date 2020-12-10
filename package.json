@@ -30,11 +30,11 @@
       "react-app",
       "react-app/jest"
     ],
-    "rules":{
-      "prettier/prettier":[
+    "rules": {
+      "prettier/prettier": [
         "error",
         {
-          "endOfLine":"auto"
+          "endOfLine": "auto"
         }
       ]
     }
