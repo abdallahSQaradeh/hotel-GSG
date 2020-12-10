@@ -32,7 +32,7 @@ export default function HeaderContent(props) {
   );
 }
 HeaderContent.propTypes = {
-  scrollTo: PropTypes.elementType,
+  scrollTo: PropTypes.string,
   solid: PropTypes.bool,
 };
 HeaderContent.defaultProps = {

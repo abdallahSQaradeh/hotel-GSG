@@ -8,3 +8,9 @@
   color: #eee;
   transform: scaleZ(3);
 }
+.active{
+  border-bottom: 1px solid white;
+}
+a{
+  text-decoration: none;
+}
