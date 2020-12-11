@@ -27,7 +27,7 @@
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
     "_lint": "./node_modules/.bin/eslint src/*.js --fix",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
