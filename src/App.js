@@ -2,6 +2,7 @@ import "./App.css";
 import { lazy, Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
 import Loader from "./components/UI/loader/loader";
+import E404 from "./components/e404";
 // import cloneDeep from "lodash.clonedeep";
 
 import Footer from "./components/footer";
@@ -32,6 +33,9 @@ function App() {
             </Route>
             <Route path="/" exact>
               <HomePage />
+            </Route>
+            <Route>
+              <E404 />
             </Route>
           </Switch>
         </Suspense>

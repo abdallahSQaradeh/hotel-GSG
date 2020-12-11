@@ -7,7 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="luxury-hotel">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,

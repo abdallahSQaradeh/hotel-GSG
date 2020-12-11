@@ -7,7 +7,7 @@ export default function NavItem(props) {
   const { text, path } = props;
 
   return (
-    <NavLink to={path}>
+    <NavLink to={path} exact>
       <div className="nav-item">{text}</div>
     </NavLink>
   );
