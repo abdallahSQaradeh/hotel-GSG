@@ -42,7 +42,7 @@ export default function Header(props) {
       <div className="darkColor" />
     </div>
   ) : (
-    <div className="header solid">
+    <div className="header solid" id="header">
       <HeaderContent solid />
       <div className="darkColor" />
     </div>
