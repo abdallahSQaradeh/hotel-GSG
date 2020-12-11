@@ -1,9 +1,13 @@
 .triangle {
-  top: -50px;
+ 
   width: 0;
   height: 0;
   border-left: 60px solid transparent;
   border-right: 60px solid transparent;
   border-bottom: 50px solid #14274a;
-  position: absolute;
+  
+}
+.scrollUp{
+   top: -50px;
+position: absolute;
 }

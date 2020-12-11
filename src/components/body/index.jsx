@@ -42,8 +42,7 @@ export default function Body(props) {
         "https://api.pexels.com/v1/search?query=hotels&size=small&per_page=2",
         {
           headers: {
-            Authorization:
-              "563492ad6f917000010000014efedf2aaca34e57b0cb02d1726c6040",
+            Authorization: process.env.REACT_APP_PEXELS_KEY,
           },
         }
       )

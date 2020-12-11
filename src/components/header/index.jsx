@@ -36,6 +36,7 @@ export default function Header(props) {
       style={{
         backgroundImage: `url(${background})`,
       }}
+      id="header"
     >
       <HeaderContent scrollTo={scrollTo} />
       <div className="darkColor" />
