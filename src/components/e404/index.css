@@ -1,29 +1,27 @@
-._404{
-    text-align:center;;
-    color: #14274A;
-    margin:150px auto;
+._404 {
+  text-align: center;
+  color: #14274a;
+  margin: 150px auto;
 }
 
-  ._404-msg{
+._404-msg {
+  font-size: 300px;
 
-   
-    font-size: 300px;
-    
-    font-weight: bold
-  }
-  
-  ._404-text{
-    font-size: 50px;
-    margin-bottom:40px;
-  }
-  ._404-link{
-    font-size: 30px;
-    padding:20px 30px;
-    color:white;
-    background-color:#14274A;;
-    border-radius: 15px;;
-    margin-bottom: 70px;;
-  }
-  ._404-link:hover{
-      background-color:#334362;
-  }
+  font-weight: bold;
+}
+
+._404-text {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+._404-link {
+  font-size: 30px;
+  padding: 20px 30px;
+  color: white;
+  background-color: #14274a;
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+._404-link:hover {
+  background-color: #334362;
+}
