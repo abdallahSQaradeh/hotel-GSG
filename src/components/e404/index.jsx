@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./index.css";
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 
-export default function E404() {
+export default function E404(props) {
+  const { setHeader } = props;
+  useEffect(() => {
+    setHeader();
+  }, [setHeader]);
   const msg = "This page doesn't Found, Maybe you lost";
   return (
     <div className="_404">
@@ -14,3 +19,6 @@ export default function E404() {
     </div>
   );
 }
+E404.propTypes = {
+  setHeader: PropTypes.func.isRequired,
+};

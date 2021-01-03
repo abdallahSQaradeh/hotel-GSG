@@ -1,10 +1,15 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "./index.css";
+import PropTypes from "prop-types";
 import Testimonials from "../../components/testiminials/index";
 import BodyFacility from "../../components/body-facility/index";
 
-export default function FacilitiesPage() {
+export default function FacilitiesPage(props) {
   const scrollTo = useRef(null);
+  const { setHeader } = props;
+  useEffect(() => {
+    setHeader();
+  }, [setHeader]);
   return (
     <div className="facilities-page">
       {/* <Header backGround={Facility} scrollTo={scrollTo} /> */}
@@ -13,3 +18,7 @@ export default function FacilitiesPage() {
     </div>
   );
 }
+
+FacilitiesPage.propTypes = {
+  setHeader: PropTypes.func.isRequired,
+};
